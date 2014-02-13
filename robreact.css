@@ -10,11 +10,11 @@
 
 @font-face {
     font-family: 'BPreplayRegular';
-    src: url('_assets/fonts/BPreplay-webfont.eot');
-    src: url('_assets/fonts/BPreplay-webfont.eot?#iefix') format('embedded-opentype'),
-         url('_assets/fonts/BPreplay-webfont.woff') format('woff'),
-         url('_assets/fonts/BPreplay-webfont.ttf') format('truetype'),
-         url('_assets/fonts/BPreplay-webfont.svg#BPreplayRegular') format('svg');
+    src: url('../fonts/BPreplay-webfont.eot');
+    src: url('../fonts/BPreplay-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BPreplay-webfont.woff') format('woff'),
+         url('../fonts/BPreplay-webfont.ttf') format('truetype'),
+         url('../fonts/BPreplay-webfont.svg#BPreplayRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -22,11 +22,11 @@
 
 @font-face {
     font-family: 'BPreplayItalic';
-    src: url('_assets/fonts/BPreplayItalics-webfont.eot');
-    src: url('_assets/fonts/BPreplayItalics-webfont.eot?#iefix') format('embedded-opentype'),
-         url('_assets/fonts/BPreplayItalics-webfont.woff') format('woff'),
-         url('_assets/fonts/BPreplayItalics-webfont.ttf') format('truetype'),
-         url('_assets/fonts/BPreplayItalics-webfont.svg#BPreplayItalic') format('svg');
+    src: url('../fonts/BPreplayItalics-webfont.eot');
+    src: url('../fonts/BPreplayItalics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BPreplayItalics-webfont.woff') format('woff'),
+         url('../fonts/BPreplayItalics-webfont.ttf') format('truetype'),
+         url('../fonts/BPreplayItalics-webfont.svg#BPreplayItalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -34,11 +34,11 @@
 
 @font-face {
     font-family: 'BPreplayBold';
-    src: url('_assets/fonts/BPreplayBold-webfont.eot');
-    src: url('_assets/fonts/BPreplayBold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('_assets/fonts/BPreplayBold-webfont.woff') format('woff'),
-         url('_assets/fonts/BPreplayBold-webfont.ttf') format('truetype'),
-         url('_assets/fonts/BPreplayBold-webfont.svg#BPreplayBold') format('svg');
+    src: url('../fonts/BPreplayBold-webfont.eot');
+    src: url('../fonts/BPreplayBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BPreplayBold-webfont.woff') format('woff'),
+         url('../fonts/BPreplayBold-webfont.ttf') format('truetype'),
+         url('../fonts/BPreplayBold-webfont.svg#BPreplayBold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -46,14 +46,21 @@
 
 @font-face {
     font-family: 'BPreplayBoldItalic';
-    src: url('_assets/fonts/BPreplayBoldItalics-webfont.eot');
-    src: url('_assets/fonts/BPreplayBoldItalics-webfont.eot?#iefix') format('embedded-opentype'),
-         url('_assets/fonts/BPreplayBoldItalics-webfont.woff') format('woff'),
-         url('_assets/fonts/BPreplayBoldItalics-webfont.ttf') format('truetype'),
-         url('_assets/fonts/BPreplayBoldItalics-webfont.svg#BPreplayBoldItalic') format('svg');
+    src: url('../fonts/BPreplayBoldItalics-webfont.eot');
+    src: url('../fonts/BPreplayBoldItalics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BPreplayBoldItalics-webfont.woff') format('woff'),
+         url('../fonts/BPreplayBoldItalics-webfont.ttf') format('truetype'),
+         url('../fonts/BPreplayBoldItalics-webfont.svg#BPreplayBoldItalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
+}
+/*
+ * UTIL
+ */
+
+.nowrap{
+	white-space:nowrap;
 }
 
 body {
